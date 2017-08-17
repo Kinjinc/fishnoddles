@@ -1,6 +1,6 @@
 const restc = require('restc')
 module.exports =class{
     async beforeUseRoutes({app}){
-        app.user(restc.koa2())
+        app.use(restc.koa2())
     }
 }

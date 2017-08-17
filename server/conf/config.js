@@ -5,10 +5,10 @@ module.exports = {
 
     mongoHost: env.mongoHost || 'localhost',
     mongoDatabase: env.mongoDatabase || 'blog',
-    mongoPort: env.mongoPort || 27017,
+    mongoPort: env.mongoPort || 52777,
 
     redisHost: env.redisHost || '127.0.0.1',
-    redisPort: env.redisPort || 6379,
+    redisPort: env.redisPort || 52778,
     redisPassword: env.redisPassword || '',
 
     tokenSecret: env.tokenSecret || 'test',

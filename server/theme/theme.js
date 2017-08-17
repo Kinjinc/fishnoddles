@@ -1,6 +1,6 @@
 module.exports = {
     name: 'firekylin',
-    author: 'github.com/75team/firekylin', // migrated by smallpath
+    author: 'github.com/75team/firekylin',
     option: {
         logoUrl: '/static/logo.png',
         sidebarImageUrl: 'https://oebegwmfv.qnssl.com/webp/20161203/120012_20150202200739_vxPHK.png',

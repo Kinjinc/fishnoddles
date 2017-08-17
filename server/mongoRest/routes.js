@@ -4,6 +4,7 @@ module.exports = (router,modelName,actions,prefix,{
 })=>{
     const modelUrl = `${prefix}/${modelName}`
     const itemUrl = `${prefix}/${modelName}/:id`
+    console.log(modelUrl)
     router.get(modelUrl,...beforeRestfulRoutes,actions.findAll,...afterRestfulRoutes)
     router.get(itemUrl,...beforeRestfulRoutes,actions.findById,...afterRestfulRoutes)
     router.post(modelUrl,...beforeRestfulRoutes,actions.create,...afterRestfulRoutes)

@@ -1,6 +1,6 @@
-const redis = require('../../model/redis')
+const redis = require('../../mongo/redis')
 const tokenService = require('../../service/token')
-const {user: model} =require('../../model/mongo')
+const {user: model} =require('../../mongo/mongo')
 
 
 module.exports = class{

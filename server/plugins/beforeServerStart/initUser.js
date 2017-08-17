@@ -1,6 +1,6 @@
 const log = require('../../utils/log')
 const config = require('../../conf/config')
-const models = require('../../model/mongo')
+const models = require('../../mongo/mongo')
 
 module.exports = class{
     async beforeServerStart(){

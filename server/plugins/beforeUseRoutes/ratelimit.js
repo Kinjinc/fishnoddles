@@ -1,4 +1,4 @@
-const ratelimit = require('koa-retelimit')
+const ratelimit = require('koa-ratelimit')
 module.exports =class{
     constructor(options){
         this.options = options

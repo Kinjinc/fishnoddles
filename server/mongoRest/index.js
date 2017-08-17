@@ -1,5 +1,5 @@
-const generateRoutes = require('./route')
-const generateActions = require('../actions')
+const generateRoutes = require('./routes')
+const generateActions = require('./actions')
 
 module.exports = (router,model,prefix,middlewares)=>{
     const actions =generateActions(model)

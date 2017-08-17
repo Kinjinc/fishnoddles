@@ -1,6 +1,6 @@
 const log  = require('../../utils/log')
-const options = require('../../config/option')
-const models = require('../')
+const options = require('../../conf/option')
+const models = require('../../mongo/mongo')
 module.exports = class{
     async beforeServerStart(){
         for (const option of options){

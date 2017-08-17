@@ -70,7 +70,7 @@ module.exports = class{
             path:'/admin/qiniu',
             needBeforeRoutes:true,
             needAfterRoutes:false,
-            middleWare:[(ctx,next)=>{
+            middleware:[(ctx,next)=>{
                 return ctx.response.body = getQiniuTokenFromFilename(
                     ctx.request.body.key,
                     this.options
